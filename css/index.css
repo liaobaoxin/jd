@@ -1,0 +1,22 @@
+/*版心公共类*/
+.w{
+    width: 1190px;
+    margin: auto;
+}
+/*浮动公共类*/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/*京东顶部开始*/
+.J_event{
+    background-color: #000;
+}
+.J_event a{
+    height: 80px;
+    display: block;
+    background: url("../images/top.jpg") no-repeat;
+}
+/*京东顶部结束*/
