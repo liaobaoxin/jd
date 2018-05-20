@@ -454,3 +454,40 @@ h5.sheng {
     padding-top: 2px;
     text-align: right;
 }
+/* °æÈ¨Ä£¿é */
+.copyright {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+.links {
+    text-align: center;
+}
+.links a {
+    color: #727272;
+    font-size: 12px;
+}
+.links span {
+    font-size: 12px;
+    color: #D4CDCD;
+    margin: 0 6px;
+}
+.c-info {
+    font-size: 12px;
+    color: #9E9E9B;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.tupian {
+    text-align: center;
+    margin-top: 10px;
+}
+.tupian a{
+    width: 103px;
+    height: 32px;
+    display: inline-block;
+    background: url(../images/ico_footer.png) no-repeat 0 -151px;
+}
+.tupian .kexin {
+    background-position: -104px -151px;
+}
