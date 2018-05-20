@@ -430,3 +430,26 @@ h5.sheng {
 .help dd a:hover {
     color: #f10215;
 }
+
+.help .cover {
+    float: right;
+    width: 207px;
+    height: 150px;
+    background: url(../images/ico_footer.png) no-repeat;
+}
+.cover dt {
+    text-align: center;
+}
+.help .info{
+    height: 50px;
+    width: 175px;
+    font-size: 12px;
+    line-height:18px;
+    margin-top: 5px;
+    color: #727272;
+    margin-left:10px;
+}
+.more{
+    padding-top: 2px;
+    text-align: right;
+}
