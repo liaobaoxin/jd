@@ -58,7 +58,13 @@ input button {
 
 h1, h5, p {
     margin: 0px;
-    padding:0px;
+    padding: 0px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+
 }
 
 @font-face {
@@ -354,6 +360,7 @@ h1, h5, p {
 }
 
 .footer-service {
+    border-bottom: 1px solid #DEDEDE;
 }
 
 .footer-service-inner {
@@ -365,12 +372,14 @@ h1, h5, p {
     width: 297px;
     height: 42px;
 }
-.service_unit{
+
+.service_unit {
     width: 225px;
     height: 42px;
     margin: 0 auto;
 }
-.service_unit h5{
+
+.service_unit h5 {
     width: 36px;
     height: 42px;
     float: left;
@@ -378,18 +387,46 @@ h1, h5, p {
     text-indent: -999px;
     overflow: hidden;
 }
-.service_unit p{
+
+.service_unit p {
     float: left;
-    line-height:42px;
-    margin-left:5px;
+    line-height: 42px;
+    margin-left: 5px;
     font-weight: 700;
 }
-h5.kuai{
-     background-position: 0px -44px;
- }
-h5.hao{
+
+h5.kuai {
+    background-position: 0px -44px;
+}
+
+h5.hao {
     background-position: 0px -86px;
 }
-h5.sheng{
+
+h5.sheng {
     background-position: 0px -128px;
+}
+
+.help {
+    height: 180px;
+    padding-top: 20px;
+}
+.help dl {
+    float: left;
+    width: 195px;
+}
+.help dt{
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+}
+.help dd{
+    height: 22px;
+}
+.help dd a{
+    color: #727272;
+    font-size: 12px;
+}
+.help dd a:hover {
+    color: #f10215;
 }
