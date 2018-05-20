@@ -21,14 +21,16 @@ ul {
     margin: 0px;
     padding: 0px;
 }
-i{
+
+i {
     font-style: normal;
 }
 
 li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -39,6 +41,24 @@ input button {
 
 .style-red {
     color: #f10215 !important;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table; /* 这句话可以出发BFC BFC可以清除浮动,BFC我们后面讲 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+h1, h5, p {
+    margin: 0px;
+    padding:0px;
 }
 
 @font-face {
@@ -160,7 +180,6 @@ input button {
 
 .inner {
     height: 140px;
-    background-color: pink;
     position: relative;
 }
 
@@ -221,7 +240,7 @@ input button {
 
 .search em {
     position: absolute;
-    background:url("../images/sprite-search.png")  no-repeat ;
+    background: url("../images/sprite-search.png") no-repeat;
     width: 19px;
     height: 15px;
     top: 10px;
@@ -232,6 +251,7 @@ input button {
 .search em:hover {
     background-position: -29.5px 0;
 }
+
 /*搜索结束*/
 /*热词开始*/
 .hotwords {
@@ -244,12 +264,14 @@ input button {
     color: #9E9B99;
     font-size: 12px;
 }
+
 .hotwords a:hover {
     color: #f10215;
 }
+
 /*热词结束*/
 /*购物车*/
-.mycar{
+.mycar {
     width: 188px;
     height: 33px;
     border: 1px solid #ccc;
@@ -259,16 +281,19 @@ input button {
     text-align: center;
     line-height: 33px;
 }
-.mycar a{
+
+.mycar a {
     font-size: 12px;
     color: #f10215;
 }
-.mycar i{
+
+.mycar i {
     font-family: "icomoon";
     color: #f10215;
     margin-right: 5px;
 }
-.mycar s{
+
+.mycar s {
     position: absolute;
     top: 5px;
     left: 140px;
@@ -288,4 +313,83 @@ input button {
     bottom: 10px;
 }
 
+.navitems {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+
+.navitems ul {
+    float: left;
+}
+
+.navitems ul li {
+    float: left;
+    margin-left: 30px;
+}
+
+.navitems a {
+    color: #555A5F;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.navitems a:hover {
+    color: red;
+}
+
+.navitems .spacer {
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: -10px;
+}
+
 /*heard部分结束*/
+/*footer开始*/
+.footer {
+    height: 560px;
+    background-color: #EAEAEA;
+}
+
+.footer-service {
+}
+
+.footer-service-inner {
+    padding: 30px 0px;
+}
+
+.footer-service-inner li {
+    float: left;
+    width: 297px;
+    height: 42px;
+}
+.service_unit{
+    width: 225px;
+    height: 42px;
+    margin: 0 auto;
+}
+.service_unit h5{
+    width: 36px;
+    height: 42px;
+    float: left;
+    background: url("../images/ico_service.png") no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.service_unit p{
+    float: left;
+    line-height:42px;
+    margin-left:5px;
+    font-weight: 700;
+}
+h5.kuai{
+     background-position: 0px -44px;
+ }
+h5.hao{
+    background-position: 0px -86px;
+}
+h5.sheng{
+    background-position: 0px -128px;
+}
