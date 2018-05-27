@@ -39,6 +39,9 @@ input button {
     padding: 0px;
 }
 
+img{
+    vertical-align: top;
+}
 .style-red {
     color: #f10215 !important;
 }
